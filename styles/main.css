@@ -1,5 +1,63 @@
-/* Set the default font for the entire document */
+/* Set the default font for the body */
 body {
     font-family: sans-serif;
 }
 
+/* Header styles */
+header h2 {
+    color: #4682B4;
+    text-shadow: 2px 2px 3px darkblue;
+    font-size: 250%;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+/* Float the header image to the left */
+header img {
+    float: left;
+    margin-right: 10px;
+}
+
+/* Anchor styles in the section */
+section a:link {
+    color: #660000;
+}
+
+section a:visited {
+    color: #4682B4;
+}
+
+section a:hover {
+    color: #F0CB2A;
+}
+
+/* Styles for h2 elements inside the main element */
+main h2 {
+    font-style: italic;
+    font-size: 180%;
+}
+
+/* Styles for links in the aside element */
+aside a {
+    font-weight: bold;
+}
+
+aside a:link,
+aside a:visited {
+    color: #4682B4;
+}
+
+aside a:hover {
+    color: #660000;
+    background-color: #F5F5F5; /* Choose a background color of your choice */
+}
+
+/* Unordered list styling */
+ul {
+    margin-bottom: 8px;
+}
+
+/* Footer styling */
+footer {
+    font-size: 0.85em;
+    text-align: center;
+}
