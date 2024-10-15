@@ -32,7 +32,12 @@ section a:hover {
 
 /* Style h2 elements in the main */
 main h2 {
+    font-size: 180%;
+}
+   
+h2 {
     font-size: 120%;
+    color: #800000;
 }
 
 /* Style links in the aside */
