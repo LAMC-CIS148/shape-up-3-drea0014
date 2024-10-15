@@ -1,7 +1,94 @@
+/* Set the default font for the document */
 body {
     font-family: sans-serif;
 }
+
+/* Adjust the font sizes for headings */
 h1 {
     font-size: 2.5em;
+}
 
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.75em;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+h5 {
+    font-size: 1.25em;
+}
+
+h6 {
+    font-size: 1em;
+}
+
+/* Format the links in the section */
+section a {
+    color: maroon;
+    text-decoration: none;
+}
+
+section a:hover, 
+section a:focus {
+    color: steelblue;
+}
+
+/* Format the links in the aside */
+aside a {
+    color: steelblue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+aside a:hover, 
+aside a:focus {
+    color: maroon;
+}
+
+/* Float the image in the header to the left and indent the headings */
+header img {
+    float: left;
+    margin-right: 20px;
+}
+
+header h1, 
+header h2 {
+    text-indent: 20px;
+}
+
+/* Style the first heading in the header */
+header h1 {
+    color: steelblue;
+    font-style: italic;
+    text-shadow: 1px 1px 2px steelblue;
+}
+
+/* Increase the space between list items */
+ul, ol {
+    margin: 1.5em 0;
+    padding: 0;
+    list-style-position: inside;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+/* Format the footer */
+footer {
+    font-size: 0.8em;
+    text-align: center;
+}
+
+/* Clear floating elements */
+header::after {
+    content: "";
+    display: table;
+    clear: both;
 }
