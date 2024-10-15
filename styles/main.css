@@ -32,7 +32,6 @@ section a:hover {
 
 /* Styles for h2 elements inside the main element */
 main h2 {
-    font-style: italic;
     font-size: 180%;
 }
 
