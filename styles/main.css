@@ -1,73 +1,73 @@
+/* Set default font for the document */
 body {
     font-family: sans-serif;
 }
 
+/* Heading font sizes */
 h1 {
-    font-size: 2.5em;
-}
-
-h2 {
     font-size: 2em;
 }
 
-h3 {
+h2 {
     font-size: 1.75em;
 }
 
-h4 {
+h3 {
     font-size: 1.5em;
 }
 
-h5 {
-    font-size: 1.25em;
+/* Header styling */
+header img {
+    float: left;
+    margin-right: 20px;
 }
 
-h6 {
-    font-size: 1em;
+header h2, header h3 {
+    margin-left: 50px;
 }
 
+header h2 {
+    color: steelblue;
+    font-style: italic;
+    text-shadow: 2px 2px steelblue;
+}
+
+/* Link styling in main section */
 main a {
     color: maroon;
     text-decoration: none;
 }
 
-main a:hover, 
-main a:focus {
+main a:hover, main a:focus {
     color: steelblue;
 }
 
+/* Link styling in aside */
 aside a {
     color: steelblue;
     font-weight: bold;
     text-decoration: none;
 }
 
-aside a:hover,
-aside a:focus {
+aside a:hover, aside a:focus {
     color: maroon;
 }
 
-header {
-    overflow: auto;
-    padding-left: 20px; 
-}
-
-header img {
-    float: left;
-    margin-right: 20px;
-}
-
-header h2 {
-    color: steelblue;
-    font-style: italic;
-    text-shadow: 2px 2px 2px steelblue;
-}
-
+/* List item styling */
 nav ul li {
     margin-bottom: 10px;
 }
 
+/* Footer styling */
 footer {
     font-size: 0.8em;
     text-align: center;
 }
+
+/* Clear floats */
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
