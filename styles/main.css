@@ -30,12 +30,7 @@ section a:hover {
     color: #F0CB2A;
 }
 
-/* Style h2 elements in the main */
-main h2 {
-    font-size: 180%;
-    color: black;
-}
-   
+/* Style h2 elements in the main */   
 h2 {
     font-size: 120%;
     color: #800000;
