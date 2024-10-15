@@ -19,7 +19,7 @@ header img {
 
 /* Anchor styles in the section */
 section a:link {
-    color: #660000;
+    color: #800000;
 }
 
 section a:visited {
@@ -46,7 +46,7 @@ aside a:visited {
 }
 
 aside a:hover {
-    color: #660000;
+    color: #800000;
     background-color: #F5F5F5; /* Choose a background color of your choice */
 }
 
