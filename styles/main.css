@@ -1,9 +1,7 @@
-/* Set the default font for the entire document */
 body {
     font-family: sans-serif;
 }
 
-/* Heading font sizes */
 h1 {
     font-size: 2.5em;
 }
@@ -28,7 +26,6 @@ h6 {
     font-size: 1em;
 }
 
-/* Links in the main content section */
 main a {
     color: maroon;
     text-decoration: none;
@@ -39,7 +36,6 @@ main a:focus {
     color: steelblue;
 }
 
-/* Links in the aside */
 aside a {
     color: steelblue;
     font-weight: bold;
@@ -51,10 +47,9 @@ aside a:focus {
     color: maroon;
 }
 
-/* Header styling */
 header {
     overflow: auto;
-    padding-left: 20px; /* Indent the content */
+    padding-left: 20px; 
 }
 
 header img {
@@ -68,16 +63,11 @@ header h2 {
     text-shadow: 2px 2px 2px steelblue;
 }
 
-/* List item spacing */
 nav ul li {
     margin-bottom: 10px;
 }
 
-/* Footer styling */
 footer {
     font-size: 0.8em;
     text-align: center;
 }
-
-/* Link to external style sheet */
-<link rel="stylesheet" href="styles/main.css">
