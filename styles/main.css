@@ -1,4 +1,12 @@
 /* Set the default font for the entire document */
 body {
-    font-family: sans-serif;
+    font: sans-serif;
 }
+header h2 {
+    color: #4682B4;
+    text-shadow: 2px 2px 3px darkblue;
+    font-style: italic;
+    font-size: 250%;
+    font: sans-serif;
+}
+body h2
