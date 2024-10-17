@@ -1,6 +1,6 @@
 /* Set default font for body */
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font: sans-serif;
 }
 
 /* Style for h2 in the header */
@@ -9,7 +9,6 @@ header h2 {
     text-shadow: 2px 2px 3px darkblue;
     font-style: italic;
     font-size: 250%;
-    font-family: Georgia, "Times New Roman", serif;
 }
 
 /* Float the image to the left in the header */
