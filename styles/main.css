@@ -45,7 +45,6 @@ aside a:link, aside a:visited {
 }
 
 aside a:hover {
-    color: #660000;
     background-color: #f5f5f5; /* Choose a background color of your choice */
 }
 
