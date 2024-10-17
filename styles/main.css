@@ -9,4 +9,6 @@ header h2 {
     font-size: 250%;
     font: sans-serif;
 }
-body h2
+header h3 {
+      font-size: 150%
+}
