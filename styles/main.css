@@ -1,61 +1,80 @@
-/* Set default font for body */
+/* Set the default font for the entire document */
 body {
-    font: sans-serif;
+    font-family: sans-serif;
 }
 
-/* Style for h2 in the header */
-header h2 {
-    color: #4682B4;
-    text-shadow: 2px 2px 3px darkblue;
-    font-style: italic;
-    font-size: 250%;
+/* Heading font sizes */
+h1 {
+    font-size: 2.5em;
 }
 
-/* Float the image to the left in the header */
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.75em;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+h5 {
+    font-size: 1.25em;
+}
+
+h6 {
+    font-size: 1em;
+}
+
+/* Links in the main content section */
+main a {
+    color: maroon;
+    text-decoration: none;
+}
+
+main a:hover, 
+main a:focus {
+    color: steelblue;
+}
+
+/* Links in the aside */
+aside a {
+    color: steelblue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+aside a:hover,
+aside a:focus {
+    color: maroon;
+}
+
+/* Header styling */
+header {
+    overflow: auto;
+    padding-left: 20px; /* Indent the content */
+}
+
 header img {
     float: left;
+    margin-right: 20px;
 }
 
-/* Style links within the section */
-section a:link {
-    color: #660000;
+header h2 {
+    color: steelblue;
+    font-style: italic;
+    text-shadow: 2px 2px 2px steelblue;
 }
 
-section a:visited {
-    color: #4682B4;
+/* List item spacing */
+nav ul li {
+    margin-bottom: 10px;
 }
 
-section a:hover {
-    color: #F0CB2A;
-}
-
-/* Style h2 elements in the main */   
-h2 {
-    font-size: 120%;
-    color: #800000;
-}
-
-/* Style links in the aside */
-aside a {
-    font-weight: bold;
-}
-
-aside a:link, aside a:visited {
-    color: #4682B4;
-}
-
-aside a:hover {
-    color: #660000;
-    background-color: #f5f5f5; /* Choose a background color of your choice */
-}
-
-/* Format the unordered list */
-ul {
-    margin-bottom: 8px;
-}
-
-/* Style for the footer */
+/* Footer styling */
 footer {
-    font-size: 0.85em;
+    font-size: 0.8em;
     text-align: center;
 }
