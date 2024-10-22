@@ -23,7 +23,7 @@ h3 {
 
 /* Format links in the main section */
 a {
-    color: maroon;
+    color: #800000;
     text-decoration: none; /* Remove underline */
 }
 
@@ -38,7 +38,7 @@ aside a {
 }
 
 aside a:hover, aside a:focus {
-    color: maroon; /* Change color on hover or focus */
+    color: #800000; /* Change color on hover or focus */
 }
 
 /* Float image to the left and format header */
