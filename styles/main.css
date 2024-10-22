@@ -5,11 +5,11 @@ body {
 
 /* Style for headings */
 h1 {
-    font-size: 2.5em; /* Adjust this size as needed */
-    color: steelblue;
+   color: #4682B4;
+    text-shadow: 2px 2px 3px darkblue;
     font-style: italic;
-    text-shadow: 1px 1px 2px steelblue;
-    margin-left: 20px; /* Indent heading */
+    font-size: 250%;
+}
 }
 
 h2 {
@@ -23,7 +23,7 @@ h3 {
 
 /* Format links in the main section */
 a {
-    color: #800000;
+    color: #660000;
     text-decoration: none; /* Remove underline */
 }
 
@@ -38,7 +38,7 @@ aside a {
 }
 
 aside a:hover, aside a:focus {
-    color: #800000; /* Change color on hover or focus */
+    color: #660000; /* Change color on hover or focus */
 }
 
 /* Float image to the left and format header */
