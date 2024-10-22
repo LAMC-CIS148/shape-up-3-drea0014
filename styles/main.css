@@ -5,10 +5,11 @@ body {
 
 /* Style for headings */
 h1 {
-   color: #4682B4;
-    text-shadow: 2px 2px 3px darkblue;
+    font-size: 2.5em; /* Adjust this size as needed */
+    color: steelblue;
     font-style: italic;
-    font-size: 250%;
+    text-shadow: 1px 1px 2px steelblue;
+    margin-left: 20px; /* Indent heading */
 }
 
 h2 {
