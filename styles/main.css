@@ -1,56 +1,54 @@
 body {
-    font: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-header h2 {
-    color: #4682B4;
-    text-shadow: 2px 2px 3px darkblue;
-    font-size: 250%;
-    font-style: italic;
-    font: san-serif;
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+main a {
+    color: maroon;
+    text-decoration: none;
+}
+
+main a:hover, main a:focus {
+    color: steelblue;
+}
+
+aside a {
+    color: steelblue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+aside a:hover, aside a:focus {
+    color: maroon;
 }
 
 header img {
     float: left;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
-section a:link {
-    color: #660000;
+header h2, header h3 {
+    margin-left: 20px;
 }
 
-section a:visited {
-    color: #4682B4;
-}
-
-section a:hover {
-    color: #F0CB2A;
-}
-
-main h2 {
+header h2 {
+    color: steelblue;
     font-style: italic;
-    font-size: 180%;
+    text-shadow: 2px 2px 4px steelblue;
 }
 
-aside a {
-    font-weight: bold;
-}
-
-aside a:link,
-aside a:visited {
-    color: #4682B4;
-}
-
-aside a:hover {
-    color: #660000;
-    background-color: #F0F8FF;
-}
-
-ul {
-    margin-bottom: 8px;
+nav ul li {
+    margin-bottom: 10px;
 }
 
 footer {
-    font-size: 0.85em;
+    font-size: 0.8em;
     text-align: center;
 }
