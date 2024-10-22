@@ -1,13 +1,60 @@
+/* Set default font for the document */
 body {
-    font: sans-serif;
+    font-family: sans-serif;
 }
-header h2 {
-    color: #4682B4;
-    text-shadow: 2px 2px 3px darkblue;
+
+/* Style for headings */
+h1 {
+    font-size: 2.5em; /* Adjust this size as needed */
+    color: steelblue;
     font-style: italic;
-    font-size: 250%;
-    font: sans-serif;
+    text-shadow: 1px 1px 2px steelblue;
+    margin-left: 20px; /* Indent heading */
 }
-header h3 {
-      font-size: 150%
+
+h2 {
+    font-size: 2em; /* Adjust this size as needed */
+    margin-left: 20px; /* Indent heading */
+}
+
+h3 {
+    font-size: 1.5em; /* Adjust this size as needed */
+}
+
+/* Format links in the main section */
+a {
+    color: maroon;
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover, a:focus {
+    color: steelblue; /* Change color on hover or focus */
+}
+
+/* Format links in the aside section */
+aside a {
+    color: steelblue;
+    font-weight: bold;
+}
+
+aside a:hover, aside a:focus {
+    color: maroon; /* Change color on hover or focus */
+}
+
+/* Float image to the left and format header */
+header img {
+    float: left;
+    margin-right: 20px; /* Space between image and text */
+}
+
+/* Increase space between list items */
+ul li {
+    margin-bottom: 10px; /* Adjust spacing as needed */
+}
+
+/* Format the footer */
+footer {
+    font-size: 0.8em; /* Reduce font size */
+    text-align: center; /* Center footer text */
+    margin-top: 20px; /* Add space above footer */
 }
