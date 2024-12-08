@@ -1,43 +1,32 @@
-/* Set default font for the document */
+/* Deafault font for the document to sans-serif */
 body {
     font-family: sans-serif;
-}
+  }
+  header {
+    position: relative;
+    min-height: auto;
+ }
+  header .header-content {
+    position: relative;
+    width: 100%;
+ }
 
-/* Adjust font sizes for headings */
-h1 {
-    font-size: 2.5em; /* Adjust size as needed */
-    color: steelblue; /* Change color to steelblue */
-    font-style: italic; /* Italicize the heading */
-    text-shadow: 1px 1px 2px steelblue; /* Add shadow */
-    margin-left: 20px; /* Indent */
-}
+  header .header-content .header-content-inner h1 {
+   font-weight: 700;
+   color:steelblue;
+   text-shadow: 2px 2px 5px steelblue;
+  }
 
-h2 {
-    font-size: 2em; /* Adjust size as needed */
-    margin-left: 20px; /* Indent */
+.header-content-inner img {
+ float: left;   
 }
-
-/* Style links in the main section */
-a {
-    color: maroon; /* Default link color */
-    text-decoration: none; /* Remove underline */
+h3{
+    color: maroon;
+    
 }
-
-a:visited {
-    color: maroon; /* Visited link color */
+h3:hover{
+    color: steelblue;
 }
-
-a:hover,
-a:focus {
-    color: steelblue; /* Hover and focus link color */
+footer{
+    text-align: center;
 }
-
-/* Style links in the aside */
-aside a {
-    color: steelblue; /* Default aside link color */
-    font-weight: bold; /* Make it bold */
-    text-decoration: none; /* Remove underline */
-}
-
-aside a:visited {
-    color:
