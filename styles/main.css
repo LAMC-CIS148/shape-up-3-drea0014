@@ -6,7 +6,7 @@ body {
 
 main {
     width: 900px;
-    border: 5px solid steelblue; /* steelblue border around the body */
+    border: 10px solid steelblue; /* steelblue border around the body */
     box-shadow: 0 4px 6px black; /* black shadow */
     margin: 0 auto; /* centers the content */
 }
