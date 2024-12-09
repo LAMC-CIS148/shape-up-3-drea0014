@@ -1,25 +1,19 @@
 body {
     font-family: sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    min-height: 100vh;
-    margin: 0;
 }
 
 main {
     width: 900px;
     border: 5px solid steelblue;
     box-shadow: 0 4px 6px black;
-    margin-top: 20px;
+    margin: 0 auto;
 }
 
 header {
     position: relative;
-    min-height: auto;
     background: linear-gradient(to bottom, white, lightsteelblue);
-    padding-bottom: 10px;
     border-bottom: 5px solid steelblue;
+    padding-bottom: 10px;
 }
 
 header .header-content {
@@ -41,7 +35,6 @@ header .header-content-inner img {
 
 h3 {
     color: maroon;
-    margin: 10px 0;
 }
 
 h3:hover {
@@ -55,3 +48,4 @@ footer {
     padding: 20px 0;
     margin-top: 20px;
 }
+
