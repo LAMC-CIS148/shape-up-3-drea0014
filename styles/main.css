@@ -1,18 +1,9 @@
 body {
     font-family: sans-serif;
-    width: 900px;
-    margin: 0 auto;
-    border: 5px solid steelblue;
-    box-shadow: 5px 5px 10px black;
-}
-
+  }
   header {
     position: relative;
     min-height: auto;
-    background: linear-gradient(to bottom, white, lightSteelBlue);
-  padding: 20px
-          border-top: 10px solid steelblue;
-
  }
   header .header-content {
     position: relative;
@@ -37,8 +28,4 @@ h3:hover{
 }
 footer{
     text-align: center;
-     background-color: steelblue;
-  color: white;
-  padding: 10px;
-  text-align: center;
 }
