@@ -4,15 +4,17 @@ body {
 
 main {
     width: 900px;
-    border: 2px solid steelblue;
+    border: 3px solid steelblue;
     box-shadow: 0 4px 6px black;
     margin: 0 auto;
+    padding: 20px 0;
+
 }
 
 header {
     position: relative;
     background: linear-gradient(to bottom, white, lightsteelblue);
-    border-bottom: 2px solid steelblue;
+    border-bottom: 3px solid steelblue;
     padding-bottom: 10px;
 }
 
