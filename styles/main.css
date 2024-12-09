@@ -1,86 +1,23 @@
 body {
-    font-family:sans-serif;
-    /* body width set to 900px */
-    width: 900px;  
-    border: 4px solid black;
-    /* body shadow */
-    box-shadow: -5px -5px 10px, 5px 5px 10px;
-    margin: auto;
-
-    
+  width: 900px;
+  margin: 0 auto;
+  border: 5px solid steelblue;
+  box-shadow: 5px 5px 10px black;
 }
-/* set the header style with the f=gradient */
+
 header {
-    text-shadow: steelblue 2px 1px;
-    border-bottom: 4px solid steelblue;
-    background-image: linear-gradient(to bottom, white 0%, steelblue);
-    margin: 0 0 0 0;
-    padding-bottom: 0.5em;
-}
-header img {
-    margin-left: 50px;
-    float: left;
+  background: linear-gradient(to bottom, white, lightSteelBlue);
+  padding: 20px;
 }
 
-/* header h1 style */
-h1 {
-    font-size: 50px;
-    text-indent: 55px;
-    color: steelblue;
-    font-style: italic;
-    text-shadow: steelblue 2px 1px;
-}
-/* header h2 style */
-h2 {
-    font-size: 20px;
-    text-indent: 60px;
-}
-/* main content of the page set the padding */
-main{
-    padding: 20px;
-}
-
-h3 {
-    font-size: 20px;
-}
-
-
-h4 {
-    font-size: 20px;
-}
-
-a {
-    color: maroon;
-}
-
-a:hover {
-    color: steelblue;
-}
-
-ul a {
-    font-weight: bold;
-    color: steelblue;
-}
-
-ul a:hover {
-    color: maroon;
-}
-
-li {
-    margin-bottom: 20px;
-}
-
-
-/* footer style */
 footer {
-    background: steelblue;
-    height: 50px;
-    text-align: center;
-    margin: 0 0 0 0;
-    font-size: small;
-    color: white;
+  background-color: steelblue;
+  color: white;
+  padding: 10px;
+  text-align: center;
 }
 
-footer p {
-    padding-top: 1.25em;
+/* Add a steelblue border below the header */
+header + * {
+  border-top: 5px solid steelblue;
 }
