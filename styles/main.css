@@ -1,19 +1,25 @@
 body {
     font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
 }
 
 main {
     width: 900px;
     border: 3px solid steelblue;
     box-shadow: 0 4px 6px black;
-    margin: 0 auto;
+    padding: 20px;  /* Padding inside the main content for spacing */
 }
 
 header {
     position: relative;
     background: linear-gradient(to bottom, white, lightsteelblue);
     border-bottom: 3px solid steelblue;
-    padding-bottom: 10px;
+    padding: 20px 0; /* Adjusted padding for header */
 }
 
 header .header-content {
@@ -25,7 +31,7 @@ header .header-content .header-content-inner h1 {
     font-weight: 700;
     color: steelblue;
     text-shadow: 2px 2px 5px steelblue;
-    padding: 20px 0;
+    padding: 0 20px;  /* Added padding for better spacing */
 }
 
 header .header-content-inner img {
@@ -35,6 +41,7 @@ header .header-content-inner img {
 
 h3 {
     color: maroon;
+    margin: 10px 0;
 }
 
 h3:hover {
