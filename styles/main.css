@@ -1,14 +1,12 @@
 body {
     font-family: sans-serif;
-    margin: 0;
-    padding: 0;
 }
 
 main {
     width: 900px;
-    border: 10px solid steelblue; /* steelblue border around the body */
-    box-shadow: 0 4px 6px black; /* black shadow */
-    margin: 0 auto; /* centers the content */
+    border: 5px solid steelblue;
+    box-shadow: 0 4px 6px black;
+    margin: 0 auto;
 }
 
 header {
@@ -50,5 +48,4 @@ footer {
     padding: 20px 0;
     margin-top: 20px;
 }
-
 
