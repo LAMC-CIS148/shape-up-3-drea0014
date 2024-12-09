@@ -1,28 +1,31 @@
-/* Set the body width to 900px and center it */
 body {
-  width: 900px;
-  margin: 0 auto;
-}
+    font-family: sans-serif;
+  }
+  header {
+    position: relative;
+    min-height: auto;
+ }
+  header .header-content {
+    position: relative;
+    width: 100%;
+ }
 
-/* Style the header with a gradient background */
-header {
-  background: linear-gradient(to bottom, white, lightsteelblue);
-  text-align: center;
-  padding: 20px;
-  border-bottom: 2px solid steelblue;
-  box-shadow: 0 2px 4px black;
-}
+  header .header-content .header-content-inner h1 {
+   font-weight: 700;
+   color:steelblue;
+   text-shadow: 2px 2px 5px steelblue;
+  }
 
-/* Style the main content */
-main {
-  padding: 20px;
-  text-align: center;
+.header-content-inner img {
+ float: left;   
 }
-
-/* Style the footer with a steelblue background and white text */
-footer {
-  background: steelblue;
-  color: white;
-  text-align: center;
-  padding: 20px;
+h3{
+    color: maroon;
+    
+}
+h3:hover{
+    color: steelblue;
+}
+footer{
+    text-align: center;
 }
