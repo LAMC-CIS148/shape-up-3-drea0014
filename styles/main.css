@@ -1,54 +1,254 @@
-body {
-    font-family: sans-serif;
+/*style for row class that is to the body */
+
+.row
+
+{
+
+ 
+
+font-family: Arial, Helvetica, sans-serif;
+
+ 
+
+font-size: 100%;
+
+ 
+
+margin-left: 10px;
+
+ 
+
+width: 900px;
+
+ 
+
+margin: 0 auto;
+
+ 
+
+border: 3px solid steelblue;
+
+ 
+
+border-radius: 2px;
+
+ 
+
+box-shadow: 2px 2px 5px 5px black;
+
+ 
+
 }
 
-main {
-    width: 900px;
-    border: 3px solid steelblue;
-    box-shadow: 0 4px 6px black;
-    margin: 0 auto;
-    text-align: center; /* Center the text inside main */
+/*style for clear class */
+
+.clear{
+
+clear:both;
+
 }
 
-header {
-    position: relative;
-    background: linear-gradient(to bottom, white, lightsteelblue);
-    border-bottom: 3px solid steelblue;
-    padding-bottom: 10px;
-    text-align: center; /* Center header text */
+/*style for image */
+
+img{
+
+float: left;
+
+width:150px;
+
+height: 100px;
+
+margin-right: 1em;
+
 }
 
-header .header-content {
-    position: relative;
-    width: 100%;
+/*style for hyperlinks */
+
+.rightColumn a:link {color:maroon;}
+
+ 
+
+a:visited{color:maroon;}
+
+ 
+
+a:hover, a:focus{ color:steelblue;}
+
+ 
+
+main p:first-child, a:hover, a:focus{color:maroon;}
+
+ 
+
+/*header class */
+
+header
+
+ 
+
+{
+
+ 
+
+padding-bottom: 1em;
+
+ 
+
+border-bottom: 3px solid steelblue;
+
+ 
+
+background-image: -moz-linear-gradient(
+
+ 
+
+180deg, white 0%, lightsteelblue 100%);
+
+ 
+
+background-image: -webkit-linear-gradient(
+
+ 
+
+180deg, white 0%, lightsteelblue 100%);
+
+ 
+
+background-image: -o-linear-gradient(
+
+ 
+
+180deg, white 0%, lightsteelblue 100%);
+
+ 
+
+background-image: linear-gradient(
+
+ 
+
+180deg, white 0%, lightsteelblue 100%)
+
+ 
+
 }
 
-header .header-content .header-content-inner h1 {
-    font-weight: 700;
-    color: steelblue;
-    text-shadow: 2px 2px 5px steelblue;
-    padding: 20px 0;
+/*blockquote */
+
+blockquote
+
+ 
+
+{
+
+ 
+
+text-indent: 50px;
+
+ 
+
+padding: .5em .5em .5em .5em;
+
+ 
+
 }
 
-header .header-content-inner img {
-    float: left;
-    margin-right: 20px;
+/* h1 from header class */
+
+ 
+
+header h1
+
+ 
+
+{
+
+ 
+
+font-style: italic;
+
+ 
+
+color:steelblue;
+
+ 
+
+text-shadow: 2px 2px;
+
+ 
+
 }
 
-h3 {
-    color: maroon;
-    text-align: center; /* Center the h3 text */
+ 
+
+/*style for left column */
+
+.leftColumn{
+
+float: left;
+
+width: 245px;
+
+height: 300px;
+
+margin-left: 10px;
+
+padding: 10px;
+
 }
 
-h3:hover {
-    color: steelblue;
+/*style for right column */
+
+.rightColumn{
+
+width: 68%;
+
+float: right;
+
 }
 
-footer {
-    text-align: center; /* Ensure footer text is centered */
-    background-color: steelblue;
-    color: white;
-    padding: 20px 0;
-    margin-top: 20px;
+/*style for list item */
+
+li{
+
+padding: 5px;
+
 }
 
+ 
+
+/*style for h2 within header */
+
+header h2
+
+ 
+
+{
+
+ 
+
+font-size: 150%;
+
+ 
+
+}
+
+/*style for footer */
+
+footer
+
+ 
+
+{
+
+color: white;
+
+margin-top:2px;
+
+font-size:24px;
+
+text-align:center;
+
+background-color: steelblue;
+
+height: 4%;
+}
