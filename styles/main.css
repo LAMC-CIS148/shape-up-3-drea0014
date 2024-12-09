@@ -1,23 +1,27 @@
+/* Set the body width to 900px and center it */
 body {
   width: 900px;
   margin: 0 auto;
-  border: 5px solid steelblue;
-  box-shadow: 5px 5px 10px black;
 }
 
+/* Style the header with a gradient background */
 header {
-  background: linear-gradient(to bottom, white, lightSteelBlue);
+  background: linear-gradient(to bottom, white, lightsteelblue);
+  text-align: center;
   padding: 20px;
+  border-bottom: 2px solid steelblue;
+  box-shadow: 0 2px 4px black;
 }
 
-footer {
-  background-color: steelblue;
-  color: white;
-  padding: 10px;
+/* Style the main content */
+main {
+  padding: 20px;
   text-align: center;
 }
 
-/* Add a steelblue border below the header */
-header + * {
-  border-top: 5px solid steelblue;
-}
+/* Style the footer with a steelblue background and white text */
+footer {
+  background: steelblue;
+  color: white;
+  text-align: center;
+  pa
